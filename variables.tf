@@ -10,3 +10,9 @@ variable "DD_HOST" {
   description = "Datadog Host"  
 }
 
+variable "notify_channels" {
+  description = "List of emails to notify"  
+  type = string
+  default = "@team-infra"
+  
+}

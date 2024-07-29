@@ -5,6 +5,7 @@ output "dashboards-id" {
   ]
 }
 
-output "datadog_permissions" {
-  value = data.datadog_permissions.default.permissions
-}
+# Realiza o output de todas as possibilidades de permissions
+#output "datadog_permissions" {
+#  value = data.datadog_permissions.default.permissions
+#}
